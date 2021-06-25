@@ -5,9 +5,9 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.3.4/jasmine.css">
   <style>
-    body {
+body {
     font-family: sans-serif;
-    background: #f1a8b8;
+    background-color: #f1a8b8;
 }
 
 #game-board {
@@ -25,26 +25,26 @@
     font-size: 45px;
 }
 
-#start-game {
-    background-color: yellow;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-
-h1 {
+#name {
     background: red;
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4vw;
 }
+
+#start-game{
+    background-color: cyan;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
   </style>
 </head>
 <body>
 
-<h1>Tic Tac JS
-  <button id="start-game">Start!</button>
+<h1><span id="name">Tic Tac JS</span>
+<button id="start-game">Start!</button>
 </h1>
 
 <table id="game-board" cellpadding="0" cellspacing="0">
