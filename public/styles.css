@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: #f1a8b8;
+    background-color: #f1a8b8;
 }
 
 #game-board {
@@ -18,16 +18,17 @@ body {
     font-size: 45px;
 }
 
-#start-game {
+#name {
+    background: red;
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+}
+
+#start-game{
     background-color: cyan;
     border-radius: 50%;
     height: 50px;
     width: 50px;
-}
-
-h1 {
-    background: red;
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-text-fill-color: transparent;
-    font-size: 4vw;
 }
