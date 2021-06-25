@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+#game-board {
+    border: solid 1px black;
+    margin-bottom: 2em;
+    width: 500px;
+    height: 500px;
+}
+
+#game-board td {
+    border: solid 1px black;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#start-game {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
